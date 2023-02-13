@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Revamp- Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <label class="logo">Team Revamp - Quiz Application</label>
+    <ul>
+        <li><a href="index.html" >Quiz-1</a></li>
+        <li><a href="quiz2.html"  >Quiz-2</a></li>
+        <li><a href="quiz3.html" > Quiz-3</a></li>
+        <li><a href="quiz4.html" >Quiz-4</a></li>
+        <li><a href="quiz5.html" class="active">Quiz-5</a></li>
+    </ul>
+  </nav>
+
+    <div class="main">
+        <div id="box">
+            <h2 id="quesBox">1) This is the dummy question ?</h2>
+            <div class="row">
+                <input class = "options" id= "option1" type="radio" value="a" name="option">
+                <label for="">a) Option 1</label>
+            </div>
+            <div class="row">
+                <input class = "options" id= "option2" type="radio" value="b" name="option">
+                <label for="">b) Option 2</label>
+            </div>
+            <div class="row">
+                <input class = "options" id= "option3" type="radio" value="c" name="option">
+                <label for="">c) Option 3</label>
+            </div>
+            <div class="row">
+                <input class = "options" id= "option4" type="radio" value="d" name="option">
+                <label for="">d) Option 4</label>
+            </div>
+            <div id="count"></div>
+            <button class="btn" onclick="submitQuiz()">
+                Submit
+            </button>
+        </div>
+    </div>
+    <script src="quizapp5.js"></script>
+</body>
+</html>l
