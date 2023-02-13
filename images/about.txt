@@ -1,0 +1,5 @@
+This Quiz project was made for Knowledgehut Upgrad Competition.
+This project was assigned on 09-02-2023.
+This project submission date is on 13-02-2023.
+This project was named as Team Revamp - Quiz Application.
+This project team has 4 members - Rupesh,Himanshu,Parth & me.
